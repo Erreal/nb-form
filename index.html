@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Login form</title>
+    <link rel="shortcut icon" href="favicon.ico" type="image/x-icon">
+    <link rel="stylesheet" href="css/normalize.css">
+    <link rel="stylesheet" href="css/style.css">
+    <script src="js/jquery-3.6.0.min.js"></script>
+    <script src="js/script.js"></script>
+</head>
+<body>
+    <main class="main-page">
+        <form class="login-form">
+            <label for="name"> Имя </label>
+            <input type="text" name="name" id="name">
+            
+            <label for="pwd"> Пароль</label>
+            <input type="password" name="pwd" id="pwd">
+            
+            <input type="submit" value="Войти">
+            <div class="load-wrapper">
+                <div class="load-ring"></div>
+            </div>
+        </form>
+        
+        <p class="welcome"></p>
+    </main>
+    <aside class="preload" hidden>
+        <div class="preload__wrapper">
+            <div class="preload__letters">
+                <div class="letter">Loading ...</div>
+          </div>
+    </aside>
+</body>
+</html>
