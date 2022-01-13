@@ -2,8 +2,6 @@
     session_start();
 
     class AuthClass {
-        //private $_login = "123"; //Устанавливаем логин
-        //private $_password = "123"; //Устанавливаем пароль
         private $data = array("123", "123"); 
     
         public function auth ($login, $passwd) {
@@ -45,5 +43,4 @@
             echo "Добро пожаловать!";
         }
     }
- 
-?>
+ ?>
