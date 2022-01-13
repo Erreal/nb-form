@@ -94,6 +94,10 @@ body {
     border-color: #FFF transparent #FFF transparent;
     animation: load-ring 1.2s linear infinite;
   }
+  .welcome {
+      font-size: 40px;
+      text-align: center;
+  }
 @keyframes load-ring {
     0% {
       transform: rotate(0deg);
